@@ -1,0 +1,3 @@
+export DEVITO_LANGUAGE=openacc
+export DEVITO_ARCH=nvc
+export DEVITO_PLATFORM=nvidiaX
