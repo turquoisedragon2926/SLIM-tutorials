@@ -6,7 +6,7 @@ Partners of ML4Seismic, please follow the below instructions to access the SLIM 
 
 The tutorial sessions are scheduled to be held on Friday Nov 15. The entire meeting schedule can be found [here](https://slim.gatech.edu/content/ml4seismic-partners-meeting-2024)
 
-1. Navigate to our server at [`http://129.213.24.64/`](http://129.213.24.64/)
+1. Navigate to our server at [`https://slim-tutorials.org/`](https://slim-tutorials.org/)
 2. Log in with your provided username and create a password on your first login
 
 ![Login Preview](images/login.png)
