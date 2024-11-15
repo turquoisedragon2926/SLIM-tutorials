@@ -1,0 +1,889 @@
+{
+    "arch": "arm64",
+    "build": "py312h147345f_2",
+    "build_number": 2,
+    "build_string": "py312h147345f_2",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [],
+    "depends": [
+        "__osx >=11.0",
+        "numpy >=1.19,<3",
+        "numpy >=1.23,<3",
+        "python >=3.12,<3.13.0a0",
+        "python >=3.12,<3.13.0a0 *_cpython",
+        "python_abi 3.12.* *_cp312"
+    ],
+    "extracted_package_dir": "/Users/abhinav/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/pywavelets-1.7.0-py312h147345f_2",
+    "files": [
+        "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/INSTALLER",
+        "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/LICENSE",
+        "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/METADATA",
+        "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/RECORD",
+        "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/REQUESTED",
+        "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/WHEEL",
+        "lib/python3.12/site-packages/pywt/__init__.py",
+        "lib/python3.12/site-packages/pywt/__pycache__/__init__.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_c99_config.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_cwt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_doc_utils.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_dwt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_functions.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_mra.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_multidim.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_multilevel.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_pytest.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_pytesttester.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_swt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_thresholding.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_utils.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/_wavelet_packets.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/conftest.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/__pycache__/version.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/_c99_config.py",
+        "lib/python3.12/site-packages/pywt/_cwt.py",
+        "lib/python3.12/site-packages/pywt/_doc_utils.py",
+        "lib/python3.12/site-packages/pywt/_dwt.py",
+        "lib/python3.12/site-packages/pywt/_extensions/_cwt.cpython-312-darwin.so",
+        "lib/python3.12/site-packages/pywt/_extensions/_dwt.cpython-312-darwin.so",
+        "lib/python3.12/site-packages/pywt/_extensions/_pywt.cpython-312-darwin.so",
+        "lib/python3.12/site-packages/pywt/_extensions/_swt.cpython-312-darwin.so",
+        "lib/python3.12/site-packages/pywt/_functions.py",
+        "lib/python3.12/site-packages/pywt/_mra.py",
+        "lib/python3.12/site-packages/pywt/_multidim.py",
+        "lib/python3.12/site-packages/pywt/_multilevel.py",
+        "lib/python3.12/site-packages/pywt/_pytest.py",
+        "lib/python3.12/site-packages/pywt/_pytesttester.py",
+        "lib/python3.12/site-packages/pywt/_swt.py",
+        "lib/python3.12/site-packages/pywt/_thresholding.py",
+        "lib/python3.12/site-packages/pywt/_utils.py",
+        "lib/python3.12/site-packages/pywt/_wavelet_packets.py",
+        "lib/python3.12/site-packages/pywt/conftest.py",
+        "lib/python3.12/site-packages/pywt/data/__init__.py",
+        "lib/python3.12/site-packages/pywt/data/__pycache__/__init__.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/data/__pycache__/_readers.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/data/__pycache__/_wavelab_signals.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/data/__pycache__/create_dat.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/data/_readers.py",
+        "lib/python3.12/site-packages/pywt/data/_wavelab_signals.py",
+        "lib/python3.12/site-packages/pywt/data/aero.npz",
+        "lib/python3.12/site-packages/pywt/data/ascent.npz",
+        "lib/python3.12/site-packages/pywt/data/camera.npz",
+        "lib/python3.12/site-packages/pywt/data/create_dat.py",
+        "lib/python3.12/site-packages/pywt/data/ecg.npz",
+        "lib/python3.12/site-packages/pywt/data/sst_nino3.npz",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test__pywt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_concurrent.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_cwt_wavelets.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_data.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_deprecations.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_doc.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_dwt_idwt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_functions.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_matlab_compatibility.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_matlab_compatibility_cwt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_modes.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_mra.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_multidim.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_multilevel.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_perfect_reconstruction.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_swt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_thresholding.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wavelet.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wp.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wp2d.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wpnd.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/data/__pycache__/generate_matlab_data.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/data/__pycache__/generate_matlab_data_cwt.cpython-312.pyc",
+        "lib/python3.12/site-packages/pywt/tests/data/cwt_matlabR2015b_result.npz",
+        "lib/python3.12/site-packages/pywt/tests/data/dwt_matlabR2012a_result.npz",
+        "lib/python3.12/site-packages/pywt/tests/data/generate_matlab_data.py",
+        "lib/python3.12/site-packages/pywt/tests/data/generate_matlab_data_cwt.py",
+        "lib/python3.12/site-packages/pywt/tests/data/wavelab_test_signals.npz",
+        "lib/python3.12/site-packages/pywt/tests/test__pywt.py",
+        "lib/python3.12/site-packages/pywt/tests/test_concurrent.py",
+        "lib/python3.12/site-packages/pywt/tests/test_cwt_wavelets.py",
+        "lib/python3.12/site-packages/pywt/tests/test_data.py",
+        "lib/python3.12/site-packages/pywt/tests/test_deprecations.py",
+        "lib/python3.12/site-packages/pywt/tests/test_doc.py",
+        "lib/python3.12/site-packages/pywt/tests/test_dwt_idwt.py",
+        "lib/python3.12/site-packages/pywt/tests/test_functions.py",
+        "lib/python3.12/site-packages/pywt/tests/test_matlab_compatibility.py",
+        "lib/python3.12/site-packages/pywt/tests/test_matlab_compatibility_cwt.py",
+        "lib/python3.12/site-packages/pywt/tests/test_modes.py",
+        "lib/python3.12/site-packages/pywt/tests/test_mra.py",
+        "lib/python3.12/site-packages/pywt/tests/test_multidim.py",
+        "lib/python3.12/site-packages/pywt/tests/test_multilevel.py",
+        "lib/python3.12/site-packages/pywt/tests/test_perfect_reconstruction.py",
+        "lib/python3.12/site-packages/pywt/tests/test_swt.py",
+        "lib/python3.12/site-packages/pywt/tests/test_thresholding.py",
+        "lib/python3.12/site-packages/pywt/tests/test_wavelet.py",
+        "lib/python3.12/site-packages/pywt/tests/test_wp.py",
+        "lib/python3.12/site-packages/pywt/tests/test_wp2d.py",
+        "lib/python3.12/site-packages/pywt/tests/test_wpnd.py",
+        "lib/python3.12/site-packages/pywt/version.py"
+    ],
+    "fn": "pywavelets-1.7.0-py312h147345f_2.conda",
+    "license": "MIT",
+    "link": {
+        "source": "/Users/abhinav/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/pywavelets-1.7.0-py312h147345f_2",
+        "type": 1
+    },
+    "md5": "b0f62ba2994eb50ec041e9a04de941eb",
+    "name": "pywavelets",
+    "package_tarball_full_path": "/Users/abhinav/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/pywavelets-1.7.0-py312h147345f_2.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/INSTALLER",
+                "path_type": "hardlink",
+                "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+                "size_in_bytes": 5
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/LICENSE",
+                "path_type": "hardlink",
+                "sha256": "63fd203c1eab43cc6b6d8435ce3934fe875926f646143178af58adf7f3c9ae97",
+                "sha256_in_prefix": "63fd203c1eab43cc6b6d8435ce3934fe875926f646143178af58adf7f3c9ae97",
+                "size_in_bytes": 1171
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/METADATA",
+                "path_type": "hardlink",
+                "sha256": "f184fe4834bd42250a48f586b08182dcc737e715fb1d04dbcf87d1f0a168f460",
+                "sha256_in_prefix": "f184fe4834bd42250a48f586b08182dcc737e715fb1d04dbcf87d1f0a168f460",
+                "size_in_bytes": 9044
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/RECORD",
+                "path_type": "hardlink",
+                "sha256": "2cc7c122550e038b899ba9d06bf3da0c8c8861df0a9d18d57d1ed8bdf5f8f5cd",
+                "sha256_in_prefix": "2cc7c122550e038b899ba9d06bf3da0c8c8861df0a9d18d57d1ed8bdf5f8f5cd",
+                "size_in_bytes": 7526
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/REQUESTED",
+                "path_type": "hardlink",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywavelets-1.7.0.dist-info/WHEEL",
+                "path_type": "hardlink",
+                "sha256": "06581da0677628d54490fc83f10c3b234e0177d49ad046f7111462eb2271222b",
+                "sha256_in_prefix": "06581da0677628d54490fc83f10c3b234e0177d49ad046f7111462eb2271222b",
+                "size_in_bytes": 93
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "0d374c81924e123d4cf804087476b98c2eca3a327cabedcd3875448299a714d9",
+                "sha256_in_prefix": "0d374c81924e123d4cf804087476b98c2eca3a327cabedcd3875448299a714d9",
+                "size_in_bytes": 1093
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/__init__.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "d0c884f21ae77d922b3ebb02d5c860c312ee199714d640644adf99b253a9597f",
+                "sha256_in_prefix": "d0c884f21ae77d922b3ebb02d5c860c312ee199714d640644adf99b253a9597f",
+                "size_in_bytes": 1109
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_c99_config.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "99c61fbc55cfa5e7616e87e3db76f1eedcebd74a381f2ad41ee875f74aee5c07",
+                "sha256_in_prefix": "99c61fbc55cfa5e7616e87e3db76f1eedcebd74a381f2ad41ee875f74aee5c07",
+                "size_in_bytes": 174
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_cwt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "0d5c087078572cef0a8b0c47cc0800931fe395b19ef9683a2e45f1a793018eb6",
+                "sha256_in_prefix": "0d5c087078572cef0a8b0c47cc0800931fe395b19ef9683a2e45f1a793018eb6",
+                "size_in_bytes": 8702
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_doc_utils.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "4d618a8d587a2b07ce9a816557c734aefa61717d864c2c965ac142bf05778df8",
+                "sha256_in_prefix": "4d618a8d587a2b07ce9a816557c734aefa61717d864c2c965ac142bf05778df8",
+                "size_in_bytes": 7816
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_dwt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "e083303621422728a9d6a854eaa5a13d813e4a5a958df7622fc99e6c8c247c51",
+                "sha256_in_prefix": "e083303621422728a9d6a854eaa5a13d813e4a5a958df7622fc99e6c8c247c51",
+                "size_in_bytes": 19189
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_functions.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "265d3206cd11e87082c6e387ece80e8de60c7011b5473a239839993139e37932",
+                "sha256_in_prefix": "265d3206cd11e87082c6e387ece80e8de60c7011b5473a239839993139e37932",
+                "size_in_bytes": 9233
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_mra.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "4f903c2a789b319c70429ab7d01992f7981eeeaba7ee5687ea76afa5baf6ae75",
+                "sha256_in_prefix": "4f903c2a789b319c70429ab7d01992f7981eeeaba7ee5687ea76afa5baf6ae75",
+                "size_in_bytes": 16198
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_multidim.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "4f8451e3bd2d1c1effaa772d1c4f0e749aa90584640f4607de7b02064d0e8c40",
+                "sha256_in_prefix": "4f8451e3bd2d1c1effaa772d1c4f0e749aa90584640f4607de7b02064d0e8c40",
+                "size_in_bytes": 14189
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_multilevel.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "237f802f604562a11d10ae468843329cdac31febacd3c70da993cb1ea10bdc18",
+                "sha256_in_prefix": "237f802f604562a11d10ae468843329cdac31febacd3c70da993cb1ea10bdc18",
+                "size_in_bytes": 67133
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_pytest.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "422f29079085d75f0c42b368e73db2cacbc1405e70980a39a09c8cd19ea0e091",
+                "sha256_in_prefix": "422f29079085d75f0c42b368e73db2cacbc1405e70980a39a09c8cd19ea0e091",
+                "size_in_bytes": 2636
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_pytesttester.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "ffbfbfbef62ce8fd2c0e32b0ca317fdb280abb41735aecd09e734feed584aa26",
+                "sha256_in_prefix": "ffbfbfbef62ce8fd2c0e32b0ca317fdb280abb41735aecd09e734feed584aa26",
+                "size_in_bytes": 5445
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_swt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "3a7acfde048806ebffc3d06545b087ff9e7c1511cabbc29b2089c83f9397db51",
+                "sha256_in_prefix": "3a7acfde048806ebffc3d06545b087ff9e7c1511cabbc29b2089c83f9397db51",
+                "size_in_bytes": 34631
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_thresholding.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "0732357f7f2c559ba0772f27bd39335aaba95b717482440e620db688bf73451e",
+                "sha256_in_prefix": "0732357f7f2c559ba0772f27bd39335aaba95b717482440e620db688bf73451e",
+                "size_in_bytes": 9850
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_utils.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "f59a00491257ce0d8795e28f7273d25815a9bdab35686818b35ce0400cc962a2",
+                "sha256_in_prefix": "f59a00491257ce0d8795e28f7273d25815a9bdab35686818b35ce0400cc962a2",
+                "size_in_bytes": 3957
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/_wavelet_packets.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "6609690b13196c5c59b1ca3ae95b8bfda05c6c2cfb9e4d63dcc30732adad6bca",
+                "sha256_in_prefix": "6609690b13196c5c59b1ca3ae95b8bfda05c6c2cfb9e4d63dcc30732adad6bca",
+                "size_in_bytes": 44910
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/conftest.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "09edaddc0f58b5f2ded6f3bd65769076bcc58763513a22ef71e1e499f6c634a1",
+                "sha256_in_prefix": "09edaddc0f58b5f2ded6f3bd65769076bcc58763513a22ef71e1e499f6c634a1",
+                "size_in_bytes": 384
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/__pycache__/version.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "e149f0e418f245d6301ba117913ea1d62325055cd7d9015a51a83932a68c1cb2",
+                "sha256_in_prefix": "e149f0e418f245d6301ba117913ea1d62325055cd7d9015a51a83932a68c1cb2",
+                "size_in_bytes": 286
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_c99_config.py",
+                "path_type": "hardlink",
+                "sha256": "5e228dfabea9b678bbba7e3559e1af9780947702dffd4e214d26f878f590842e",
+                "sha256_in_prefix": "5e228dfabea9b678bbba7e3559e1af9780947702dffd4e214d26f878f590842e",
+                "size_in_bytes": 83
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_cwt.py",
+                "path_type": "hardlink",
+                "sha256": "13e4590f750782967fe080a2ab90665879dfc251666a41e65812198466a9abe2",
+                "sha256_in_prefix": "13e4590f750782967fe080a2ab90665879dfc251666a41e65812198466a9abe2",
+                "size_in_bytes": 7628
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_doc_utils.py",
+                "path_type": "hardlink",
+                "sha256": "e3c445e1f717900aec7e9b6e096fd3e2e885a099216189755d09b764c4d26bd0",
+                "sha256_in_prefix": "e3c445e1f717900aec7e9b6e096fd3e2e885a099216189755d09b764c4d26bd0",
+                "size_in_bytes": 5820
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_dwt.py",
+                "path_type": "hardlink",
+                "sha256": "fc92382c97e89e47c4d662e4a5c3974a869b06f6a9e84743a46995541c2cfd93",
+                "sha256_in_prefix": "fc92382c97e89e47c4d662e4a5c3974a869b06f6a9e84743a46995541c2cfd93",
+                "size_in_bytes": 17187
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_extensions/_cwt.cpython-312-darwin.so",
+                "path_type": "hardlink",
+                "sha256": "2b6f9a0eb053993666d7ccb048ee60a5bc4472b7b2ab2b90c53f07b2d321f26e",
+                "sha256_in_prefix": "2b6f9a0eb053993666d7ccb048ee60a5bc4472b7b2ab2b90c53f07b2d321f26e",
+                "size_in_bytes": 249808
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_extensions/_dwt.cpython-312-darwin.so",
+                "path_type": "hardlink",
+                "sha256": "5e621d13be25d409fc6e1add1e662c0f3545cf01b1855e494d5f1a399ba57c6f",
+                "sha256_in_prefix": "5e621d13be25d409fc6e1add1e662c0f3545cf01b1855e494d5f1a399ba57c6f",
+                "size_in_bytes": 472576
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_extensions/_pywt.cpython-312-darwin.so",
+                "path_type": "hardlink",
+                "sha256": "b34efb816cc115047822099929aaf6df67824e107834800b29b4e31582085c6f",
+                "sha256_in_prefix": "b34efb816cc115047822099929aaf6df67824e107834800b29b4e31582085c6f",
+                "size_in_bytes": 457728
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_extensions/_swt.cpython-312-darwin.so",
+                "path_type": "hardlink",
+                "sha256": "c9707b8b404734a3473bb922ee640b282b8c2d80e6dd867209b8cbf1ebec281e",
+                "sha256_in_prefix": "c9707b8b404734a3473bb922ee640b282b8c2d80e6dd867209b8cbf1ebec281e",
+                "size_in_bytes": 404416
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_functions.py",
+                "path_type": "hardlink",
+                "sha256": "5def0c10a6138eaede6ad050aaf71e3db4fd1d903f4bfe144fad412ceaafcec2",
+                "sha256_in_prefix": "5def0c10a6138eaede6ad050aaf71e3db4fd1d903f4bfe144fad412ceaafcec2",
+                "size_in_bytes": 7899
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_mra.py",
+                "path_type": "hardlink",
+                "sha256": "0f6dbcd04ea5b74703942f4eb8ebd9f059abea567a71f91b21956c33063883ac",
+                "sha256_in_prefix": "0f6dbcd04ea5b74703942f4eb8ebd9f059abea567a71f91b21956c33063883ac",
+                "size_in_bytes": 14375
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_multidim.py",
+                "path_type": "hardlink",
+                "sha256": "1f1c59bc0dc7efb9c11a8776bddc5436d9c40f2ef1743fde751e3b7b8328eef4",
+                "sha256_in_prefix": "1f1c59bc0dc7efb9c11a8776bddc5436d9c40f2ef1743fde751e3b7b8328eef4",
+                "size_in_bytes": 11294
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_multilevel.py",
+                "path_type": "hardlink",
+                "sha256": "0d78838c83cde7da02e0221c5586598ec1913c78f00069f2e7bcf6863a915e9f",
+                "sha256_in_prefix": "0d78838c83cde7da02e0221c5586598ec1913c78f00069f2e7bcf6863a915e9f",
+                "size_in_bytes": 56969
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_pytest.py",
+                "path_type": "hardlink",
+                "sha256": "c7fcdaebfedbf36d77be5a1fece5190d1a8b293c90ca7a49ec8a9afe8dde1209",
+                "sha256_in_prefix": "c7fcdaebfedbf36d77be5a1fece5190d1a8b293c90ca7a49ec8a9afe8dde1209",
+                "size_in_bytes": 2823
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_pytesttester.py",
+                "path_type": "hardlink",
+                "sha256": "05de23e8839959091dc3d9ed5cfff49950acb92b6358c63c8e1d8a3befe88c16",
+                "sha256_in_prefix": "05de23e8839959091dc3d9ed5cfff49950acb92b6358c63c8e1d8a3befe88c16",
+                "size_in_bytes": 4826
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_swt.py",
+                "path_type": "hardlink",
+                "sha256": "9b60798e2b2f598ee76ccf560fc4fa6b75c5f7d4666e7d912611c44fea69a8c7",
+                "sha256_in_prefix": "9b60798e2b2f598ee76ccf560fc4fa6b75c5f7d4666e7d912611c44fea69a8c7",
+                "size_in_bytes": 31918
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_thresholding.py",
+                "path_type": "hardlink",
+                "sha256": "28dbe0a107406041db938f33d9d6a25a7f173744ffd0dd0ec6141af27cd3fb4d",
+                "sha256_in_prefix": "28dbe0a107406041db938f33d9d6a25a7f173744ffd0dd0ec6141af27cd3fb4d",
+                "size_in_bytes": 8718
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_utils.py",
+                "path_type": "hardlink",
+                "sha256": "de25d0cf0bf025657cf9742d7bba93e747b4b4f00d7cd30b0e25f4e5b7fcf56d",
+                "sha256_in_prefix": "de25d0cf0bf025657cf9742d7bba93e747b4b4f00d7cd30b0e25f4e5b7fcf56d",
+                "size_in_bytes": 3441
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/_wavelet_packets.py",
+                "path_type": "hardlink",
+                "sha256": "fe78627a2414dce7ff8758b48ed8f33adb90207eee4baa4da27f76125ff605ba",
+                "sha256_in_prefix": "fe78627a2414dce7ff8758b48ed8f33adb90207eee4baa4da27f76125ff605ba",
+                "size_in_bytes": 36364
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/conftest.py",
+                "path_type": "hardlink",
+                "sha256": "71f7494fbb9c0d5af513fd99725db07633500be772416d8817a2f6d4209c3741",
+                "sha256_in_prefix": "71f7494fbb9c0d5af513fd99725db07633500be772416d8817a2f6d4209c3741",
+                "size_in_bytes": 143
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/__init__.py",
+                "path_type": "hardlink",
+                "sha256": "1e4f6b18806c6ece05431ee23b87c39cc2e5ccc84bc3de7b1c7ef42f3321afa0",
+                "sha256_in_prefix": "1e4f6b18806c6ece05431ee23b87c39cc2e5ccc84bc3de7b1c7ef42f3321afa0",
+                "size_in_bytes": 96
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/__pycache__/__init__.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "4590172eabc58d1297962fa5ffb7e20a04b8fa3291a3478f56bf209cde9cbdba",
+                "sha256_in_prefix": "4590172eabc58d1297962fa5ffb7e20a04b8fa3291a3478f56bf209cde9cbdba",
+                "size_in_bytes": 306
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/__pycache__/_readers.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "a93fdcdf313537f0e13680ad5a197c223a21b52a9c495e19dce45a191bf7b4ef",
+                "sha256_in_prefix": "a93fdcdf313537f0e13680ad5a197c223a21b52a9c495e19dce45a191bf7b4ef",
+                "size_in_bytes": 6954
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/__pycache__/_wavelab_signals.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "95acd3ae96c92c67a10e4e6ef2463db257cabbb0273c4537d95c2e986c03252b",
+                "sha256_in_prefix": "95acd3ae96c92c67a10e4e6ef2463db257cabbb0273c4537d95c2e986c03252b",
+                "size_in_bytes": 16357
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/__pycache__/create_dat.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "9c03d467167b930317ee1559f4b3d3ac03672d5a064eeabbf34afbc7fe624b15",
+                "sha256_in_prefix": "9c03d467167b930317ee1559f4b3d3ac03672d5a064eeabbf34afbc7fe624b15",
+                "size_in_bytes": 1088
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/_readers.py",
+                "path_type": "hardlink",
+                "sha256": "11d2cdd5516045b6c3f8ef669fefe6f6067c61f0d2d6f208ce104485632dd0d1",
+                "sha256_in_prefix": "11d2cdd5516045b6c3f8ef669fefe6f6067c61f0d2d6f208ce104485632dd0d1",
+                "size_in_bytes": 4967
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/_wavelab_signals.py",
+                "path_type": "hardlink",
+                "sha256": "58769f1ba7db58704ceb655093d7cc959dc9fbd5634a668a3eff9ab58504b8c5",
+                "sha256_in_prefix": "58769f1ba7db58704ceb655093d7cc959dc9fbd5634a668a3eff9ab58504b8c5",
+                "size_in_bytes": 9870
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/aero.npz",
+                "path_type": "hardlink",
+                "sha256": "df862635798bac94226b8928f224da8cef8b0d00492c1fdf48fac6dfaf97a94b",
+                "sha256_in_prefix": "df862635798bac94226b8928f224da8cef8b0d00492c1fdf48fac6dfaf97a94b",
+                "size_in_bytes": 227784
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/ascent.npz",
+                "path_type": "hardlink",
+                "sha256": "a6d56bc8e96571d6124f34cedeba49f1d3599507f6c890ad9ba538544454e8f7",
+                "sha256_in_prefix": "a6d56bc8e96571d6124f34cedeba49f1d3599507f6c890ad9ba538544454e8f7",
+                "size_in_bytes": 170883
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/camera.npz",
+                "path_type": "hardlink",
+                "sha256": "2be8195e9680ccb3c804fee19ca0b69a097eae9c9b2ab97474c7f1438171f074",
+                "sha256_in_prefix": "2be8195e9680ccb3c804fee19ca0b69a097eae9c9b2ab97474c7f1438171f074",
+                "size_in_bytes": 169034
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/create_dat.py",
+                "path_type": "hardlink",
+                "sha256": "4e0b95593ba86a2f01c0b42fb408daf1c5a0507830ddaa97cb8bcd7dae7c718c",
+                "sha256_in_prefix": "4e0b95593ba86a2f01c0b42fb408daf1c5a0507830ddaa97cb8bcd7dae7c718c",
+                "size_in_bytes": 587
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/ecg.npz",
+                "path_type": "hardlink",
+                "sha256": "ea720476139341eabecf3e44cc602cd75576aff1e4156b1c069f7b33e86a9e6b",
+                "sha256_in_prefix": "ea720476139341eabecf3e44cc602cd75576aff1e4156b1c069f7b33e86a9e6b",
+                "size_in_bytes": 4358
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/data/sst_nino3.npz",
+                "path_type": "hardlink",
+                "sha256": "d1ef70af12824d8c08cef96c5e1684a22d819d89adcd9ab3cf92d12a5d9d8367",
+                "sha256_in_prefix": "d1ef70af12824d8c08cef96c5e1684a22d819d89adcd9ab3cf92d12a5d9d8367",
+                "size_in_bytes": 64262
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test__pywt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "fd131410567a47c5ee2284b09d6a4477bef465fa9ff8e0c7b6a2ec33edf8d7e9",
+                "sha256_in_prefix": "fd131410567a47c5ee2284b09d6a4477bef465fa9ff8e0c7b6a2ec33edf8d7e9",
+                "size_in_bytes": 9963
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_concurrent.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "6a5b791535cb8ea6bbdf15e24d9c1e1d90c97f152da76dc81813f67c9cb75398",
+                "sha256_in_prefix": "6a5b791535cb8ea6bbdf15e24d9c1e1d90c97f152da76dc81813f67c9cb75398",
+                "size_in_bytes": 6217
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_cwt_wavelets.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "b937b3c5c98028842f6bcf027553678640b478b8d5c97a75f791cef5d331b0e0",
+                "sha256_in_prefix": "b937b3c5c98028842f6bcf027553678640b478b8d5c97a75f791cef5d331b0e0",
+                "size_in_bytes": 25156
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_data.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "2afb1a2c66b2cc50d721af31ba3ad1913d9d298c22286c0b020a0598d1916274",
+                "sha256_in_prefix": "2afb1a2c66b2cc50d721af31ba3ad1913d9d298c22286c0b020a0598d1916274",
+                "size_in_bytes": 3768
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_deprecations.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "6bb9eff4341a5bd222b4afb9cc131d08259287a9d57774f5bb95f40e6229eb72",
+                "sha256_in_prefix": "6bb9eff4341a5bd222b4afb9cc131d08259287a9d57774f5bb95f40e6229eb72",
+                "size_in_bytes": 4527
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_doc.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "ce12d27f00bba3c91afba6f92d5f012e5729e5431c9cafac5aec9d1b0e070da5",
+                "sha256_in_prefix": "ce12d27f00bba3c91afba6f92d5f012e5729e5431c9cafac5aec9d1b0e070da5",
+                "size_in_bytes": 1456
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_dwt_idwt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "4ea4969052533aa407f9be9d71b9a84117bb83945c6d2e6a6f916ee73cec2641",
+                "sha256_in_prefix": "4ea4969052533aa407f9be9d71b9a84117bb83945c6d2e6a6f916ee73cec2641",
+                "size_in_bytes": 16077
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_functions.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "141a29e2e346162c1dd81d26b0c746e3dca7ebdce4bb284b9314b2f6bbb4b544",
+                "sha256_in_prefix": "141a29e2e346162c1dd81d26b0c746e3dca7ebdce4bb284b9314b2f6bbb4b544",
+                "size_in_bytes": 2088
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_matlab_compatibility.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "ee533c890c453ffe67165d204bcf1081bbb517eff00d386c2ca90975c1a7ade3",
+                "sha256_in_prefix": "ee533c890c453ffe67165d204bcf1081bbb517eff00d386c2ca90975c1a7ade3",
+                "size_in_bytes": 7368
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_matlab_compatibility_cwt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "b281a41effa20ef56cca8e6d7f93159eb68f7212c1afee6e985ac6c1645f43ba",
+                "sha256_in_prefix": "b281a41effa20ef56cca8e6d7f93159eb68f7212c1afee6e985ac6c1645f43ba",
+                "size_in_bytes": 8850
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_modes.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "176b7ad4f9a59d50ccee641ca625b38756dec8a0ef953e3b8a8f836cfb4e2ab7",
+                "sha256_in_prefix": "176b7ad4f9a59d50ccee641ca625b38756dec8a0ef953e3b8a8f836cfb4e2ab7",
+                "size_in_bytes": 5195
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_mra.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "735c1721f3b3350386df2a3163e4ec29c26e16a0f6ba492343a2896ff3d3dae3",
+                "sha256_in_prefix": "735c1721f3b3350386df2a3163e4ec29c26e16a0f6ba492343a2896ff3d3dae3",
+                "size_in_bytes": 15224
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_multidim.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "649815daed16c4bb999dc8b3f83053326c32a31c7f7291cffd3dd21145f847fc",
+                "sha256_in_prefix": "649815daed16c4bb999dc8b3f83053326c32a31c7f7291cffd3dd21145f847fc",
+                "size_in_bytes": 22197
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_multilevel.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "299ec4e736ea8eedd17d2f26769939109a1efb1ae007aaba37261fb702f6e45a",
+                "sha256_in_prefix": "299ec4e736ea8eedd17d2f26769939109a1efb1ae007aaba37261fb702f6e45a",
+                "size_in_bytes": 56777
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_perfect_reconstruction.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "e015217aeae299ff8164f295bcccf29153bc5e292d9ecd5f92926c2edc6042f4",
+                "sha256_in_prefix": "e015217aeae299ff8164f295bcccf29153bc5e292d9ecd5f92926c2edc6042f4",
+                "size_in_bytes": 2449
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_swt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "84a3dbe165c2ca1bb9537b981d97fcb79c257e453943b26ec45f697016e87281",
+                "sha256_in_prefix": "84a3dbe165c2ca1bb9537b981d97fcb79c257e453943b26ec45f697016e87281",
+                "size_in_bytes": 32500
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_thresholding.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "e882ceeefbba4f196d725452b9dae21f6ff3d9e0070c802c34ebc2a2435b1202",
+                "sha256_in_prefix": "e882ceeefbba4f196d725452b9dae21f6ff3d9e0070c802c34ebc2a2435b1202",
+                "size_in_bytes": 9679
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wavelet.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "be49943f44e25913f748e555f6e66a5990522035b4f37dcdabef88db1aa0b03d",
+                "sha256_in_prefix": "be49943f44e25913f748e555f6e66a5990522035b4f37dcdabef88db1aa0b03d",
+                "size_in_bytes": 13394
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wp.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "be4f25340d7c04c78d6cf98603e94dcdc4df0d5a21a1dea5cf4f3700e38e8ff6",
+                "sha256_in_prefix": "be4f25340d7c04c78d6cf98603e94dcdc4df0d5a21a1dea5cf4f3700e38e8ff6",
+                "size_in_bytes": 13068
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wp2d.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "6e6de92c11ed46116c548dab5afe55295296aa01b57b8d0b63ed719fcf2d3c67",
+                "sha256_in_prefix": "6e6de92c11ed46116c548dab5afe55295296aa01b57b8d0b63ed719fcf2d3c67",
+                "size_in_bytes": 15769
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/__pycache__/test_wpnd.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "14c7b21f2d41382c0e795c5ca718e9c0bf49c2f2f0fbd8c55da263fa9c179c22",
+                "sha256_in_prefix": "14c7b21f2d41382c0e795c5ca718e9c0bf49c2f2f0fbd8c55da263fa9c179c22",
+                "size_in_bytes": 10895
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/__pycache__/generate_matlab_data.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "8aa3b2afb9d93f04ad35dd0859399f3fdb584ccd14abac8dbaef80c701d1f179",
+                "sha256_in_prefix": "8aa3b2afb9d93f04ad35dd0859399f3fdb584ccd14abac8dbaef80c701d1f179",
+                "size_in_bytes": 4296
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/__pycache__/generate_matlab_data_cwt.cpython-312.pyc",
+                "path_type": "hardlink",
+                "sha256": "59476393b6f652a41cdf5ab7b57eb978974d9eac948aafd54c7043859e824256",
+                "sha256_in_prefix": "59476393b6f652a41cdf5ab7b57eb978974d9eac948aafd54c7043859e824256",
+                "size_in_bytes": 4014
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/cwt_matlabR2015b_result.npz",
+                "path_type": "hardlink",
+                "sha256": "320c9638de54ae10ac22162cc279efeada5a012df4b970838d8c262e3cc7e59e",
+                "sha256_in_prefix": "320c9638de54ae10ac22162cc279efeada5a012df4b970838d8c262e3cc7e59e",
+                "size_in_bytes": 1826646
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/dwt_matlabR2012a_result.npz",
+                "path_type": "hardlink",
+                "sha256": "961687ab8fae83f4b62ed3d4975315a25515c416a7443c604341043e11f3ce22",
+                "sha256_in_prefix": "961687ab8fae83f4b62ed3d4975315a25515c416a7443c604341043e11f3ce22",
+                "size_in_bytes": 3740630
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/generate_matlab_data.py",
+                "path_type": "hardlink",
+                "sha256": "c2c827d91aeba1a22f77ac1df2a86e9327503d43a424472f4965a19d21444979",
+                "sha256_in_prefix": "c2c827d91aeba1a22f77ac1df2a86e9327503d43a424472f4965a19d21444979",
+                "size_in_bytes": 3808
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/generate_matlab_data_cwt.py",
+                "path_type": "hardlink",
+                "sha256": "40732cc1e6c1d4eab68209113c49c7a31680dc41fb6120060f30980f7d60ff71",
+                "sha256_in_prefix": "40732cc1e6c1d4eab68209113c49c7a31680dc41fb6120060f30980f7d60ff71",
+                "size_in_bytes": 3175
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/data/wavelab_test_signals.npz",
+                "path_type": "hardlink",
+                "sha256": "f9cc749def4975372ae8b88a05a72333fd3f127ef64c088abef1545b5ca26581",
+                "sha256_in_prefix": "f9cc749def4975372ae8b88a05a72333fd3f127ef64c088abef1545b5ca26581",
+                "size_in_bytes": 184818
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test__pywt.py",
+                "path_type": "hardlink",
+                "sha256": "cd5f66a804f0515bc2fbb5e216118c125d319aea7ca8c11dc9365d3cd940baac",
+                "sha256_in_prefix": "cd5f66a804f0515bc2fbb5e216118c125d319aea7ca8c11dc9365d3cd940baac",
+                "size_in_bytes": 5404
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_concurrent.py",
+                "path_type": "hardlink",
+                "sha256": "fc48b5b5a8b5742d8a9597c15ced7027d3f8c407d64a1c2225ba1ebbeaba503e",
+                "sha256_in_prefix": "fc48b5b5a8b5742d8a9597c15ced7027d3f8c407d64a1c2225ba1ebbeaba503e",
+                "size_in_bytes": 3937
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_cwt_wavelets.py",
+                "path_type": "hardlink",
+                "sha256": "cf769c8fd90d5866b54d96997fb376d8181401dfd5bd0efb3c127f3a1270df90",
+                "sha256_in_prefix": "cf769c8fd90d5866b54d96997fb376d8181401dfd5bd0efb3c127f3a1270df90",
+                "size_in_bytes": 14034
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_data.py",
+                "path_type": "hardlink",
+                "sha256": "bf8c2d336361d5fc7c275e6456fb924f9c5cb2f1dc632f2d8917814ca19cbde0",
+                "sha256_in_prefix": "bf8c2d336361d5fc7c275e6456fb924f9c5cb2f1dc632f2d8917814ca19cbde0",
+                "size_in_bytes": 2267
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_deprecations.py",
+                "path_type": "hardlink",
+                "sha256": "b6ab8c8749d4598d4e0e69bc64f50afa1f6be16c5a721bf5eff236cb02cc2774",
+                "sha256_in_prefix": "b6ab8c8749d4598d4e0e69bc64f50afa1f6be16c5a721bf5eff236cb02cc2774",
+                "size_in_bytes": 2220
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_doc.py",
+                "path_type": "hardlink",
+                "sha256": "89d983bc7ca4bb4360043e4cfbbe9d7e0c40be7276ff4e5e21c2ebf3bb9d596c",
+                "sha256_in_prefix": "89d983bc7ca4bb4360043e4cfbbe9d7e0c40be7276ff4e5e21c2ebf3bb9d596c",
+                "size_in_bytes": 603
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_dwt_idwt.py",
+                "path_type": "hardlink",
+                "sha256": "ba2b8d1b3975b2d9da411871b443965e2646d4acfa9ce26e53dc42b129f0015c",
+                "sha256_in_prefix": "ba2b8d1b3975b2d9da411871b443965e2646d4acfa9ce26e53dc42b129f0015c",
+                "size_in_bytes": 10248
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_functions.py",
+                "path_type": "hardlink",
+                "sha256": "7a5556495bed4c8441d0d1ea8860ac9ef9468642125eb8185e518fcafcdbc287",
+                "sha256_in_prefix": "7a5556495bed4c8441d0d1ea8860ac9ef9468642125eb8185e518fcafcdbc287",
+                "size_in_bytes": 1301
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_matlab_compatibility.py",
+                "path_type": "hardlink",
+                "sha256": "616c0783dfe43e43dc40b0c78fab6b3121c283b120efb0dc0852b6858bb6cf15",
+                "sha256_in_prefix": "616c0783dfe43e43dc40b0c78fab6b3121c283b120efb0dc0852b6858bb6cf15",
+                "size_in_bytes": 5784
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_matlab_compatibility_cwt.py",
+                "path_type": "hardlink",
+                "sha256": "c76b4fdcda5b7541e72144db25bd43b7025547a07f697af71e0a2011951334c8",
+                "sha256_in_prefix": "c76b4fdcda5b7541e72144db25bd43b7025547a07f697af71e0a2011951334c8",
+                "size_in_bytes": 6178
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_modes.py",
+                "path_type": "hardlink",
+                "sha256": "51a36571edaecbe670b022e9bea68a43dff9c993b3f479c2bf856d2ea2292958",
+                "sha256_in_prefix": "51a36571edaecbe670b022e9bea68a43dff9c993b3f479c2bf856d2ea2292958",
+                "size_in_bytes": 4783
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_mra.py",
+                "path_type": "hardlink",
+                "sha256": "023756b7df6d957a988f08656d8fdea82f3c749540938468063a960b0725ea17",
+                "sha256_in_prefix": "023756b7df6d957a988f08656d8fdea82f3c749540938468063a960b0725ea17",
+                "size_in_bytes": 8967
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_multidim.py",
+                "path_type": "hardlink",
+                "sha256": "c3af21fe723080005360358f60dc077865c24eae3ff37d3a6db3b3dfee1176c5",
+                "sha256_in_prefix": "c3af21fe723080005360358f60dc077865c24eae3ff37d3a6db3b3dfee1176c5",
+                "size_in_bytes": 14798
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_multilevel.py",
+                "path_type": "hardlink",
+                "sha256": "63dd2a4da602706396f070d24104c2489c430529d479be086ec7158d5a17be5d",
+                "sha256_in_prefix": "63dd2a4da602706396f070d24104c2489c430529d479be086ec7158d5a17be5d",
+                "size_in_bytes": 38919
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_perfect_reconstruction.py",
+                "path_type": "hardlink",
+                "sha256": "5120e5401fee0eb55448219eeca03796de2de4cb4d95db87e04f36f6e756e02e",
+                "sha256_in_prefix": "5120e5401fee0eb55448219eeca03796de2de4cb4d95db87e04f36f6e756e02e",
+                "size_in_bytes": 1762
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_swt.py",
+                "path_type": "hardlink",
+                "sha256": "17fd22565e629f84f76d2c568559f9378f9da827776dd31850f7135215af2ca8",
+                "sha256_in_prefix": "17fd22565e629f84f76d2c568559f9378f9da827776dd31850f7135215af2ca8",
+                "size_in_bytes": 24782
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_thresholding.py",
+                "path_type": "hardlink",
+                "sha256": "d8d0a54e806b22d9268e2da6427b588d432bf8cc9dfcff428ce8ea5fddc17643",
+                "sha256_in_prefix": "d8d0a54e806b22d9268e2da6427b588d432bf8cc9dfcff428ce8ea5fddc17643",
+                "size_in_bytes": 6467
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_wavelet.py",
+                "path_type": "hardlink",
+                "sha256": "80bff8e5181d9585c4bedb2832f1cd37e8ab9c1b48851ff52dcd25597fdf2a1b",
+                "sha256_in_prefix": "80bff8e5181d9585c4bedb2832f1cd37e8ab9c1b48851ff52dcd25597fdf2a1b",
+                "size_in_bytes": 11386
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_wp.py",
+                "path_type": "hardlink",
+                "sha256": "ec54e28840aaf352487e6072eb1ecc3e39e7f1b687c673d96326d49e0f0a52ac",
+                "sha256_in_prefix": "ec54e28840aaf352487e6072eb1ecc3e39e7f1b687c673d96326d49e0f0a52ac",
+                "size_in_bytes": 7987
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_wp2d.py",
+                "path_type": "hardlink",
+                "sha256": "9a8aaec1b38ddc31a076a6854a486dc1880adb7759404801742444a06f18eee6",
+                "sha256_in_prefix": "9a8aaec1b38ddc31a076a6854a486dc1880adb7759404801742444a06f18eee6",
+                "size_in_bytes": 9366
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/tests/test_wpnd.py",
+                "path_type": "hardlink",
+                "sha256": "b55378b980b28b54f9446331daac2efa588c64ffb3b48175284ca8061942f36c",
+                "sha256_in_prefix": "b55378b980b28b54f9446331daac2efa588c64ffb3b48175284ca8061942f36c",
+                "size_in_bytes": 6160
+            },
+            {
+                "_path": "lib/python3.12/site-packages/pywt/version.py",
+                "path_type": "hardlink",
+                "sha256": "6cee1001bce5d29ec213b5c24699264dbd8a77ca26ef92b39c2bd8c2b15fa184",
+                "sha256_in_prefix": "6cee1001bce5d29ec213b5c24699264dbd8a77ca26ef92b39c2bd8c2b15fa184",
+                "size_in_bytes": 243
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "pywavelets=*",
+    "sha256": "c41afc993b264b3c537fd497b862166528ee6829ff1625fe90a357a47e8c24e9",
+    "size": 3664499,
+    "subdir": "osx-arm64",
+    "timestamp": 1728928849860,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pywavelets-1.7.0-py312h147345f_2.conda",
+    "version": "1.7.0"
+}

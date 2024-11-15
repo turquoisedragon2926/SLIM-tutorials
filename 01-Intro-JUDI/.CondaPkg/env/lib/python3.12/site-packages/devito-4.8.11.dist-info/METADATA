@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: devito
+Version: 4.8.11
+Summary: Finite Difference DSL for symbolic computation.
+Home-page: http://www.devitoproject.org
+Author: Imperial College London
+Author-email: g.gorman@imperial.ac.uk
+License: MIT
+Project-URL: Documentation, https://www.devitoproject.org/devito/index.html
+Project-URL: Source Code, https://github.com/devitocodes/devito
+Project-URL: Issue Tracker, https://github.com/devitocodes/devito/issues
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Requires-Python: >=3.9
+License-File: LICENSE.md
+Requires-Dist: pip >=9.0.1
+Requires-Dist: psutil <7.0,>=5.1.0
+Requires-Dist: py-cpuinfo <10
+Requires-Dist: cgen >=2020.1
+Requires-Dist: codepy >=2019.1
+Requires-Dist: click <9.0
+Requires-Dist: multidict
+Requires-Dist: anytree <=2.12.1,>=2.4.3
+Requires-Dist: cloudpickle
+Requires-Dist: sympy <1.14,>=1.12.1
+Requires-Dist: numpy <2.1,>=2.0
+Provides-Extra: extras
+Requires-Dist: matplotlib ; extra == 'extras'
+Requires-Dist: pyrevolve ==2.2.4 ; extra == 'extras'
+Requires-Dist: scipy ; extra == 'extras'
+Requires-Dist: distributed ; extra == 'extras'
+Provides-Extra: mpi
+Requires-Dist: mpi4py <3.1.7 ; extra == 'mpi'
+Requires-Dist: ipyparallel <8.9 ; extra == 'mpi'
+Provides-Extra: nvidia
+Requires-Dist: cupy-cuda12x ; extra == 'nvidia'
+Requires-Dist: dask-cuda ; extra == 'nvidia'
+Requires-Dist: jupyterlab >=3 ; extra == 'nvidia'
+Requires-Dist: jupyterlab-nvdashboard ; extra == 'nvidia'
+Requires-Dist: dask-labextension ; extra == 'nvidia'
+Requires-Dist: fsspec ; extra == 'nvidia'
+Provides-Extra: python_version_3.8_
+Requires-Dist: pooch ; extra == 'python_version_3.8_'
+Provides-Extra: tests
+Requires-Dist: pytest <9.0,>=7.2 ; extra == 'tests'
+Requires-Dist: pytest-runner ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: codecov ; extra == 'tests'
+Requires-Dist: flake8 >=2.1.0 ; extra == 'tests'
+Requires-Dist: nbval ; extra == 'tests'
+Requires-Dist: scipy ; extra == 'tests'
+Requires-Dist: pooch ; (python_version >= "3.8") and extra == 'tests'
+
+
+      Devito is a tool for performing optimised Finite Difference (FD)
+      computation from high-level symbolic problem definitions. Devito
+      performs automated code generation and Just-In-time (JIT) compilation
+      based on symbolic equations defined in SymPy to create and execute highly
+      optimised Finite Difference stencil kernels on multiple computer platforms.

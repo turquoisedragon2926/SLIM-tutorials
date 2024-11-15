@@ -1,0 +1,56 @@
+{
+    "arch": "arm64",
+    "build": "h668ec48_0",
+    "build_number": 0,
+    "build_string": "h668ec48_0",
+    "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+    "constrains": [
+        "__osx >=11.0"
+    ],
+    "depends": [
+        "__osx >=11.0",
+        "libcxx >=18"
+    ],
+    "extracted_package_dir": "/Users/abhinav/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/uv-0.5.1-h668ec48_0",
+    "files": [
+        "bin/uv",
+        "bin/uvx"
+    ],
+    "fn": "uv-0.5.1-h668ec48_0.conda",
+    "license": "Apache-2.0 OR MIT",
+    "link": {
+        "source": "/Users/abhinav/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/uv-0.5.1-h668ec48_0",
+        "type": 1
+    },
+    "md5": "96791a25fa69cd8db922861f257adccd",
+    "name": "uv",
+    "package_tarball_full_path": "/Users/abhinav/.julia/scratchspaces/0b3b1443-0f03-428d-bdfb-f27f9c1191ea/root/pkgs/uv-0.5.1-h668ec48_0.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "bin/uv",
+                "path_type": "hardlink",
+                "sha256": "0a44aeaaa2449cc6a0533b5124c2af075001f0ff05677ad61e1e7da4362e7247",
+                "sha256_in_prefix": "0a44aeaaa2449cc6a0533b5124c2af075001f0ff05677ad61e1e7da4362e7247",
+                "size_in_bytes": 26510368
+            },
+            {
+                "_path": "bin/uvx",
+                "path_type": "hardlink",
+                "sha256": "df77e35daf99ecaf02ae7dc823e35890877edb94ea9336d2b864140797be44f4",
+                "sha256_in_prefix": "df77e35daf99ecaf02ae7dc823e35890877edb94ea9336d2b864140797be44f4",
+                "size_in_bytes": 337408
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "osx",
+    "requested_spec": "uv[version='>=0.4']",
+    "sha256": "a9275898733ebbe40ad0b3a3f2ca7b7c8861309d48396e188f6ba433a7206de1",
+    "size": 8674748,
+    "subdir": "osx-arm64",
+    "timestamp": 1731135650399,
+    "track_features": "",
+    "url": "https://conda.anaconda.org/conda-forge/osx-arm64/uv-0.5.1-h668ec48_0.conda",
+    "version": "0.5.1"
+}
