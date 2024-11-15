@@ -47,6 +47,7 @@ if get(ENV, "jutuljudifilter_force_install", "false") == "true" ||
         "DrWatson",
         "Format",
         "ImageFiltering",
+        "ImageTransformations",
         "JLD2",
         "JUDI",
         "JutulDarcy",
