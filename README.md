@@ -19,8 +19,10 @@ The tutorial sessions are scheduled to be held on Friday Nov 15. The entire meet
 
 ```
 git clone https://github.com/turquoisedragon2926/SLIM-tutorials.git
-
 julia -e 'using Pkg; Pkg.add("IJulia");'
+/opt/julia-1.8.5/bin/julia -e 'using Pkg; Pkg.add("IJulia");'
+cp -r ~/.local/share/jupyter/kernels/julia-1.10/ ~/.local/share/jupyter/kernels/julia-1.8
+sed -i 's|1.10.4|1.8.5|; s|/opt/julia-1.10.4/bin/julia|/opt/julia-1.8.5/bin/julia|' ~/.local/share/jupyter/kernels/julia-1.8/kernel.json
 ```
 
 4. Access the required notebook using the directory navigator on the left panel
