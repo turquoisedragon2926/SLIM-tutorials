@@ -23,6 +23,9 @@ julia -e 'using Pkg; Pkg.add("IJulia");'
 /opt/julia-1.8.5/bin/julia -e 'using Pkg; Pkg.add("IJulia");'
 cp -r ~/.local/share/jupyter/kernels/julia-1.10/ ~/.local/share/jupyter/kernels/julia-1.8
 sed -i 's|1.10.4|1.8.5|; s|/opt/julia-1.10.4/bin/julia|/opt/julia-1.8.5/bin/julia|' ~/.local/share/jupyter/kernels/julia-1.8/kernel.json
+
+export OMP_NUM_TREADS=1
+export JULIA_NUM_THREADS=1
 ```
 
 4. Access the required notebook using the directory navigator on the left panel
